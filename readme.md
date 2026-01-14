@@ -17,10 +17,26 @@ source venv/bin/activate
 ### Step 4: Install Dependencies
 pip install -r requirements.txt
 
-### Step 5: Run the Application
+### Step 5: Configure API Keys (.env file)
+
+1. Create a .env file in the root directory:
+
+touch .env
+
+
+2. Add your API key inside .env:
+
+GOOGLE_API_KEY=your_api_key_here
+
+
+3. Make sure .env is added to .gitignore:
+
+echo .env >> .gitignore
+
+### Step 6: Run the Application
 streamlit run app.py
 
-### Step 6: Open in Browser
+### Step 7: Open in Browser
 http://localhost:8501
 
 
