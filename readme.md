@@ -5,26 +5,21 @@
 git clone https://github.com/nmnmdgl/AutoStream.git
 cd AutoStream
 ### Step 2: Create Virtual Environment (Python 3.9+)
-bash
 python -m venv venv
 
 ### Step 3: Activate Virtual Environment
 Windows:
-
-bash
 venv\Scripts\activate
-Mac / Linux:
 
-bash
+Mac / Linux:
 source venv/bin/activate
 
 ### Step 4: Install Dependencies
-bash
 pip install -r requirements.txt
 
 ### Step 5: Run the Application
-bash
 streamlit run app.py
+
 ### Step 6: Open in Browser
 http://localhost:8501
 
@@ -78,11 +73,3 @@ To integrate the AI Sales Assistant with WhatsApp using Webhooks:
 This setup allows real-time, context-aware conversational AI support directly on WhatsApp.
 
 ---
-
-# Dependencies
-
-Key dependencies required to run the project:
-
-- **Streamlit**: For the frontend chat interface.  
-  ```bash
-  pip install streamlit
