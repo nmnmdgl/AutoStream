@@ -1,3 +1,34 @@
+## Running the Project Locally
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/nmnmdgl/AutoStream.git
+cd AutoStream
+Step 2: Create Virtual Environment (Python 3.9+)
+bash
+python -m venv venv
+Step 3: Activate Virtual Environment
+Windows
+
+bash
+venv\Scripts\activate
+Mac / Linux
+
+bash
+source venv/bin/activate
+Step 4: Install Dependencies
+bash
+Copy code
+pip install -r requirements.txt
+Step 5: Run the Application
+bash
+Copy code
+streamlit run app.py
+Step 6: Open in Browser
+arduino
+Copy code
+http://localhost:8501
 # Architecture Explanation
 
 This AI Sales Assistant leverages **LangGraph** for modular conversational state management and **RAG (Retrieval-Augmented Generation)** for answering knowledge-based questions efficiently.
